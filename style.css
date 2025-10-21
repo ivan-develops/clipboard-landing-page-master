@@ -10,8 +10,66 @@
     --Gray-700: hsl(210, 10%, 33%);
     --Gray-500: hsl(201, 11%, 66%);
     /*  Weights: 400, 600 */
+    --white: hsl(0, 0%, 100%);
 }
 body {
-    font-size: 18px;
     font-family: "Bai Jamjuree", sans-serif;
+    text-align: center;
+    /* padding: 2rem; */
+    /* margin: 0 auto;  */
+    display: grid;
+    justify-items: center;
+}
+.header {
+   padding: 0 2rem;
+   background: url(images/bg-header-mobile.png);
+   background-size: cover;
+   
+   img {
+    width: auto;
+    margin: 7.5rem 0 4rem;  
+   }
+}
+.title {
+    font-weight: 600;
+    font-size: 1.9rem; 
+}
+.paragraph {
+    line-height: 1.6;
+    margin-top: 1rem;
+    color: var(--Gray-500);
+}
+.buttons {
+    margin: 2rem 0;
+    display: grid;
+    gap: 2rem; 
+}
+.button {
+    width: 100%;
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 1.18rem;
+    color: var(--white); 
+    border-radius: 2rem;
+    border: none;
+    
+    &.ios {
+        background: var(--Green-500);
+        box-shadow: 0px 2px 0px 2px hsl(171, 65%, 33%) ,
+                    0px 5px 15px 5px hsla(171, 66%, 44%, 0.247);
+    }
+    &.mac {
+        background: var(--Blue-100);
+        box-shadow: 0px 2px 0px 2px hsl(233, 54%, 55%);
+    }
+
+}
+img {
+    width: 100%;;
+}
+.characteristics__item {
+    img {
+        width: auto;
+    }
 }
