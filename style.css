@@ -93,9 +93,11 @@ section {
     font-size: 1.65rem;
     font-weight: 700;
     margin-top: 9.5rem;
+    color: var(--Gray-700);
 }
 .section__subtitle {
-    font-size: 1.45rem; 
+    font-size: 1.45rem;
+    color: var(--Gray-700);
 }
 
 .characteristics__image {
