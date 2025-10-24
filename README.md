@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+It's a best practice to use `div` containers for information. Sometimes it's not optimal to have everything limited by a `section` and control everything with margin, padding, max-width, or flex-box.
 
 ### Useful resources
 
